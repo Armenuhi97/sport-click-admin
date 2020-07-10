@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+$font-main: "Roboto", sans-serif;
+button{
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    font-family: $font-main;
+}
+*{
+    outline: none;
+}
+.form{
+    padding: 10px;
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        label{
+            font-size: 16px;
+        }
+        input{
+            margin-top: 10px;
+            padding-left:5px;
+            height: 40px;
+            border-radius: 6px;
+            border: 1px solid grey;
+        }
+    }
+  }
+  .required-field {
+    color: red;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  .cursor-pointer{
+    cursor:pointer
+  }
+  .mat-dialog-container{
+      padding: 0 !important;
+  }
+  .country-card{
+    background: #70a3d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 10px auto 0 auto;
+    color: white;
+    padding: 10px;
+}
+.add-button-content{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        background: #70a3d3;
+        padding: 10px 20px;
+        color: white;
+        border-color: #70a3d3;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+}

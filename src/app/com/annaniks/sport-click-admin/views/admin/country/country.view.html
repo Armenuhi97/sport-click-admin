@@ -1,0 +1,13 @@
+<div>
+    <div class="add-button-content">
+        <button (click)="addCountry()" class="add-button">
+            Добавить
+        </button>
+    </div>
+    <div *ngFor="let country of countries" class="country-card">
+        <div>{{country?.name}}</div>
+        <div routerLink="/{{country?.id}}/liga" class="cursor-pointer"><span class="material-icons">
+                arrow_forward
+            </span></div>
+    </div>
+</div>

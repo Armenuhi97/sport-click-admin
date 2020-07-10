@@ -1,0 +1,32 @@
+
+form{
+    padding: 15px;    
+    .add-button{
+        text-align: center;
+        .button{
+            color: #fff;
+            background-color: #70a3d3;
+            border-color: #70a3d3;
+            font-size: 16px;
+            border-radius: 6px;
+            padding: 11px 16px;  
+            }
+    }
+}
+.title{
+    padding: 15px;
+    height: 60px;
+    color: white;
+    background: #5583ac ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button{
+        background: none;
+        border: none;
+        color: white;
+    }
+}
+.full-width{
+    width: 100%;
+}

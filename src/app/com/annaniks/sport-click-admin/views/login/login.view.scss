@@ -1,0 +1,28 @@
+.login-content{
+    min-height: 100vh;
+    display: flex;
+    .title{
+        text-align: center;
+    }
+    .save-btn{
+        margin-top: 20px;
+        button{
+            width: 100%;
+            background: #FFB700;
+            text-transform: uppercase;
+            padding: 15px;
+            border: none;
+            color: black;
+            border-radius: 6px;
+        }
+    }
+    form{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media screen and(max-width:800px){
+    form{
+        width: 100% !important;
+    }
+}
