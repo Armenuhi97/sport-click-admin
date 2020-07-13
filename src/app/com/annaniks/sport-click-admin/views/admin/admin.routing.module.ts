@@ -7,7 +7,8 @@ let adminRoutes: Routes = [{
     children: [
         { path: '', pathMatch: 'full', redirectTo: 'country' },
         { path: 'country', loadChildren: () => import('./country/country.module').then(m => m.CountryModule) },
-        { path: ':id/liga', loadChildren: () => import('./liga/liga.module').then(m => m.LigaModule) }
+        { path: ':id/liga', loadChildren: () => import('./liga/liga.module').then(m => m.LigaModule) },
+        { path: ':id/tours', loadChildren: () => import('./tours/tours.module').then(m => m.ToursModule) }
     ]
 }]
 @NgModule({

@@ -1,0 +1,37 @@
+.tour-list {
+    max-width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 0;
+    margin-right: 20px;
+    .tour {
+      cursor: pointer;
+      border: 1px solid;
+      white-space: nowrap;
+      padding: 10px 20px;
+      margin: 0 5px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &.active {
+        background: #333333;
+        color: white;
+      }
+    }
+  }
+  .matches-content{
+    background: #333333;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    .card-left__competitors{
+        margin-left: 10px;
+    }
+    a{
+        color: white !important;
+        cursor: pointer;
+    }
+  }

@@ -6,7 +6,7 @@
     </div>
     <div *ngFor="let liga of ligas" class="country-card">
         <div>{{liga?.liga}}</div>
-        <div class="cursor-pointer"><span class="material-icons">
+        <div routerLink="/{{liga?.id}}/tours" class="cursor-pointer"><span class="material-icons">
                 arrow_forward
             </span></div>
     </div>

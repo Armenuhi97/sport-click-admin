@@ -23,6 +23,8 @@
     "@angular/router": "~9.1.9",
     "hammerjs": "^2.0.8",
     "material-design-icons": "^3.0.1",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
     "ngx-cookie-service": "^3.0.4",
     "primeicons": "^4.0.0",
     "primeng": "^9.1.3",

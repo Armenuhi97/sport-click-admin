@@ -1,0 +1,17 @@
+<div class="tour-list">
+    <div (click)="selectTour(tour)" class="tour"
+        [ngClass]="{'active':selectedTour?.id == tour?.id}"
+        *ngFor="let tour of tours;let i=index">
+        {{tour?.name}}
+    </div>
+</div>
+<div *ngFor="let match of matches" class="matches-content">
+    <div class="card-left__score">
+        <h5>{{convertDate(match?.date)}}</h5>
+    </div>
+    <div class="card-left__competitors">
+        <a>{{match?.hosted?.name}}
+            <span>-</span>
+            {{match?.inviter?.name}}</a>
+    </div>
+</div>
